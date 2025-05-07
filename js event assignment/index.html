@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EVENT HANDLIING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Button-->
+        <button id="myButton">Click Me</button>
+
+        <!-- Image Gallery -->
+        <img id="image" src="pst.png" alt="Image Gallery" width="200">
+        <button id="nextButton">Next Image</button>
+
+        <!-- Tabs-->
+        <div class="tabs">
+            <button class="tab" data-target="content1">Tab 1</button>
+            <button class="tab" data-target="content2">Tab 2</button>
+            <div id="content1" class="content" style="display: none;">Content 1</div>
+            <div id="content2" class="content" style="display: none;">Content 2</div>
+        </div>
+
+        <!-- Form Validation -->
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="passwordFeedback"></span>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
